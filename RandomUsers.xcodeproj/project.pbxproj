@@ -14,6 +14,9 @@
 		AFF11C3A2AEFDFFD0008AF12 /* RandomUsersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF11C392AEFDFFD0008AF12 /* RandomUsersTests.swift */; };
 		AFF11C442AEFDFFD0008AF12 /* RandomUsersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF11C432AEFDFFD0008AF12 /* RandomUsersUITests.swift */; };
 		AFF11C462AEFDFFD0008AF12 /* RandomUsersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF11C452AEFDFFD0008AF12 /* RandomUsersUITestsLaunchTests.swift */; };
+		AFF11C532AEFE2330008AF12 /* UserFetchingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF11C522AEFE2330008AF12 /* UserFetchingClient.swift */; };
+		AFF11C552AEFE8610008AF12 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF11C542AEFE8610008AF12 /* UserData.swift */; };
+		AFF11C572AEFF2130008AF12 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF11C562AEFF2130008AF12 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		AFF11C3F2AEFDFFD0008AF12 /* RandomUsersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomUsersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF11C432AEFDFFD0008AF12 /* RandomUsersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsersUITests.swift; sourceTree = "<group>"; };
 		AFF11C452AEFDFFD0008AF12 /* RandomUsersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AFF11C522AEFE2330008AF12 /* UserFetchingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFetchingClient.swift; sourceTree = "<group>"; };
+		AFF11C542AEFE8610008AF12 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		AFF11C562AEFF2130008AF12 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				AFF11C282AEFDFFC0008AF12 /* RandomUsersApp.swift */,
 				AFF11C2A2AEFDFFC0008AF12 /* ContentView.swift */,
+				AFF11C562AEFF2130008AF12 /* User.swift */,
+				AFF11C522AEFE2330008AF12 /* UserFetchingClient.swift */,
+				AFF11C542AEFE8610008AF12 /* UserData.swift */,
 				AFF11C2C2AEFDFFD0008AF12 /* Assets.xcassets */,
 				AFF11C2E2AEFDFFD0008AF12 /* Preview Content */,
 			);
@@ -259,6 +268,9 @@
 			files = (
 				AFF11C2B2AEFDFFC0008AF12 /* ContentView.swift in Sources */,
 				AFF11C292AEFDFFC0008AF12 /* RandomUsersApp.swift in Sources */,
+				AFF11C552AEFE8610008AF12 /* UserData.swift in Sources */,
+				AFF11C572AEFF2130008AF12 /* User.swift in Sources */,
+				AFF11C532AEFE2330008AF12 /* UserFetchingClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
